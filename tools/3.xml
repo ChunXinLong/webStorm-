@@ -1,0 +1,23 @@
+<toolSet name="远程仓库">
+  <tool name="GitHub" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="https://github.com/" />
+      <option name="WORKING_DIRECTORY" />
+    </exec>
+  </tool>
+  <tool name="Gitee" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="https://gitee.com/" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="GitLab" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="http://106.14.62.141:8081/" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

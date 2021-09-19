@@ -1,0 +1,9 @@
+<toolSet name="在线工具">
+  <tool name="icon矢量图标库" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="https://www.iconfont.cn/" />
+      <option name="WORKING_DIRECTORY" />
+    </exec>
+  </tool>
+</toolSet>

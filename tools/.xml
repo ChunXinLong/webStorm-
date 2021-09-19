@@ -1,0 +1,51 @@
+<toolSet name="浏览器搜索">
+  <tool name="百度" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="www.baidu.com" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files (x86)/Microsoft/Edge/Application" />
+    </exec>
+  </tool>
+  <tool name="学习视频" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="https://www.bilibili.com/account/history" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Vue" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="https://cn.vuejs.org/" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="ECMAScript 6" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="https://es6.ruanyifeng.com/" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Element UI" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="https://element.eleme.cn/#/zh-CN" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="vue-element-admin" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="https://panjiachen.github.io/vue-element-admin-site/zh/" />
+      <option name="WORKING_DIRECTORY" />
+    </exec>
+  </tool>
+  <tool name="uni-app" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" />
+      <option name="PARAMETERS" value="https://uniapp.dcloud.io/frame" />
+      <option name="WORKING_DIRECTORY" />
+    </exec>
+  </tool>
+</toolSet>
